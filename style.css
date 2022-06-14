@@ -1,0 +1,228 @@
+:root {
+    --back-ground: #03045F;
+    --font: #F6F6F6;
+    --dark: #03045F;
+    --amarelo: #FEA500;
+    --rodape: #48CAE5;
+}
+
+body {
+    background-color: var(--back-ground) !important;
+    scroll-behavior: smooth;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    width: 150px;
+    margin: auto;
+}
+
+.navbar-toggler {
+    margin: auto !important;
+}
+
+ul,
+li,
+a {
+    text-align: center !important;
+    margin: auto !important;
+}
+
+.mission {
+    display: flex;
+    margin: auto;
+}
+
+.mission h1 {
+    padding: 5px;
+    color: var(--amarelo);
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.slider-container {
+    width: 75% !important;
+    margin: auto !important;
+    align-items: center !important;
+}
+
+.sr-only {
+    background: var(--back-ground) !important;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#btn {
+    margin: auto !important;
+    padding: 15px 80px !important;
+    text-align: center !important;
+    align-self: center !important;
+    align-content: center !important;
+    color: var(--back-ground);
+    background-color: var(--amarelo);
+    border-radius: 25px;
+    text-decoration: underline;
+    font-size: 15pt;
+    border: none;
+}
+
+#btn:hover {
+    margin: auto !important;
+    text-align: center !important;
+    align-self: center !important;
+    align-content: center !important;
+    color: var(--back-ground);
+    background-color: var(--amarelo);
+    border-radius: 25px;
+    text-decoration: underline;
+    font-size: 20pt;
+    border: none;
+}
+
+.testemunhos {
+    color: var(--font);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.testemunhos h2 {
+    font-size: 40pt !important;
+}
+
+hr {
+    color: var(--font);
+    width: 60%;
+    align-self: center;
+    margin-left: 20%;
+    padding-top: 8px;
+}
+
+.card-deck {
+    color: var(--back-ground);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.card {
+    width: 500px;
+    margin: 30px;
+}
+
+.about-us {
+    color: var(--font);
+    margin-top: 100px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 40pt !important;
+}
+
+.accordion {
+    width: 75%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    color: var(--back-ground);
+}
+
+.accordion-item {
+    position: relative;
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 70px;
+}
+
+#m {
+    padding: 5px;
+    color: var(--amarelo);
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.contactos {
+    color: var(--font);
+    margin-top: 100px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.contactos h2 {
+    font-size: 40pt !important;
+}
+
+.contactos-container {
+    color: var(--font);
+}
+
+#cont {
+    color: var(--font)!important;
+    text-decoration: none !important;
+    font-size: 20pt;
+}
+
+h6 {
+    font-size: 20pt;
+}
+
+footer {
+    color: var(--font);
+    background-color: var(--rodape);
+}
+
+#missao {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.creditos {
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.creditos p a {
+    position: relative;
+    display: inline;
+}
+
+.nav-item {
+    font-size: 20pt;
+}
+
+.es {
+    font-family: Cambria Math;
+}
